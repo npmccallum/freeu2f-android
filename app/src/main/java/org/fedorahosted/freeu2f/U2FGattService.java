@@ -17,7 +17,7 @@ public class U2FGattService extends BluetoothGattService {
     public final BluetoothGattCharacteristic status =
         new BluetoothGattCharacteristic(
             UUID.fromString("f1d0fff2-deaa-ecee-b42f-c9ba7ed623bb"),
-            BluetoothGattCharacteristic.PROPERTY_INDICATE,
+            BluetoothGattCharacteristic.PROPERTY_NOTIFY,
             BluetoothGattCharacteristic.PERMISSION_READ_ENCRYPTED_MITM
         );
 
