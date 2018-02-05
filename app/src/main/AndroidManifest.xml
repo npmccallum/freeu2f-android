@@ -22,17 +22,5 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.fedorahosted.freeu2f.MainActivity" />
-        </activity>
-        <service
-            android:name=".U2FService"
-            android:exported="false"
-            android:label="U2FService" />
     </application>
 </manifest>
